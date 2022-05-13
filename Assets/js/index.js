@@ -2,9 +2,7 @@
 //Start Fuction
 let start = document.querySelector('.start');
 let quiz = document.querySelector('.questions');
-let welcome = document.querySelector('.head')
-
-//hide questions
+let welcome = document.querySelector('.head');
 
 
 //function hide and display elements
