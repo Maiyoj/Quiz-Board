@@ -4,10 +4,13 @@
 
  body{
      background-color:#105E6F ;
+     
+    
  }
 
- .head{
-     align-items: center;
-     justify-content: center;
+ .main{
      width: 80%;
+     text-align: center;
+     color: white;
+     justify-content: center;
  }
