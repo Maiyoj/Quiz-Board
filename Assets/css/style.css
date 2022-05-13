@@ -15,3 +15,14 @@
      justify-content: center;
      padding-top: 200px;
  }
+
+ .questions{
+     background-color: #E5E5E5;
+     color: black;
+     width: 40%;
+     text-align: left;
+     border-radius: 13px;
+     padding: 20px;
+    align-items: center;
+
+ }
