@@ -17,5 +17,23 @@ function startQuiz(){
 }
 //function onclicknext
 function next(id){
-    
+    all.style.display = "none"
+}
+
+
+//results functions
+
+function results(){
+    let score = 0;
+    if (document.getElementById('choiceCorrect1').checked);{
+        score++
+    }
+    if (document.getElementById('choiceCorrect2').checked);{
+        score++
+    }
+    if (document.getElementById('choiceCorrect3').checked);{
+        score++
+    }
+    alert("Your score is" + score);
+
 }
