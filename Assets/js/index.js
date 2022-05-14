@@ -10,18 +10,16 @@ let board = document.querySelector('.board');
 
 
 //function hide and display elements
-function startQuiz(){
+function startQuiz(id){
     welcome.style.display ="none";
-    quiz.style.display = "block";
-   
+    all.style.display="block";
 }
 //function onclicknext
 
 
 function next(){
- 
-
-
+   
+    
 }
 
 

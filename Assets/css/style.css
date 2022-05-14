@@ -1,6 +1,7 @@
 
  body{
-     background-color:#105E6F ;
+   
+     
      
     
  }
@@ -8,6 +9,16 @@
  .head{
      text-align: center;
      margin-top: 100px;
+ }
+ .all{
+     display: none;
+     border: 1px solid black;
+     margin-left: 300px;
+     background-color: white;
+     width: 60%;
+     margin-top: 30px;
+     border-radius: 20px ;
+
  }
 
  .questions{
@@ -17,11 +28,14 @@
      padding: 20px;
      margin-bottom: 20px;
      background: white;
-     display: none;
-    margin: 300px 100px 100px 400px;
+    margin: 20px 100px 20px 300px;
  }
 
  button{
      padding: 8px;
-     margin-top: 10px;
+
+ }
+ .btn-1{
+     margin-left: 500px;
+     margin-bottom: 20px;
  }
