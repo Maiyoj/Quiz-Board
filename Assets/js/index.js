@@ -3,8 +3,6 @@
 let start = document.querySelector('.start');
 let quiz = document.querySelector('.questions');
 let welcome = document.querySelector('.head');
-let quiz1 = document.querySelector('#qn1');
-let quiz2 = document.querySelector('#qn2');
 let all = document.querySelector('.all');
 let board = document.querySelector('.board');
 //display block
@@ -12,14 +10,13 @@ let board = document.querySelector('.board');
 
 //function hide and display elements
 function startQuiz(){
-    all.style.display ="block";
+    quiz.style.display ="block";
     welcome.style.display ="none";
    
 }
 //function onclicknext
 function next(id){
-    quiz.style.display = "none";
-    all.style.display = "";
+
 }
 
 
@@ -40,13 +37,15 @@ function results(){
       if (document.getElementById('choiceCorrect4').checked){
         score +=25;
     }
+
+
+    
     //alert("Your score is" + score);
-    board.innerHTML = "your score is " + score;
+    board.innerHTML = "your score is " + score + " " +"out of 100";
 
 }
 
 //Performance output
-var score = 80;
 
 switch (score){
 

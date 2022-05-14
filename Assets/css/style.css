@@ -8,36 +8,6 @@
     
  }
 
- .main{
-    
-     width: 60%;
+ .head{
      text-align: center;
-     color: white;
-     justify-content: center;
-     padding-top: 100px;
-     align-items: center;
-    
  }
-
- .questions{
-     background-color: #E5E5E5;
-     color: black;
-     width: 30%;
-     text-align: left;
-     border-radius: 13px;
-     padding: 20px;
-    margin-left: 500px;
-    margin-top: 10px;
- }
-
- .all{
-     display: none;
- }
-
-.board{
-    background-color: #E5E5E5;
-    width: 30%;
-    display: block;
-    padding: 20px;
-    margin-left: 500px;
-}
