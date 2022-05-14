@@ -18,12 +18,6 @@ function startQuiz(id){
 //function onclicknext
 
 
-function next(){
-    
-    
-}
-
-
 //results functions
 
 function results(){
@@ -41,13 +35,7 @@ function results(){
       if (document.getElementById('choiceCorrect4').checked){
         score +=25;
     }
-
-
-
-
-
-
-
+//output performnace
 
 var  performance = score;
         switch (performance) {
@@ -61,8 +49,6 @@ var  performance = score;
                 performance = ("its not a value")
         }
         
-    
-    
 
     
     //alert("Your score is" + score);
@@ -72,17 +58,4 @@ var  performance = score;
     all.style.display = "none"
 }
 
-//Performance output
-function Performance(score){
- 
-    switch (score) {
-        case 75:
-            ("great")
-            break;
-        case y:
-            // execute case y code block
-            break;
-        default:
-            // execute default code block
-    }
-}
+
