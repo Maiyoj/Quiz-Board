@@ -39,3 +39,8 @@
      margin-left: 500px;
      margin-bottom: 20px;
  }
+
+ .intro{
+     text-align: center;
+     display: none;
+ }

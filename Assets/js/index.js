@@ -4,6 +4,7 @@ let start = document.querySelector('.start');
 let quiz = document.querySelector('.questions');
 let welcome = document.querySelector('.head');
 let all = document.querySelector('.all');
+let intro = document.querySelector('.intro');
 let board = document.querySelector('.board');
 //display block
 
@@ -13,6 +14,7 @@ let board = document.querySelector('.board');
 function startQuiz(id){
     welcome.style.display ="none";
     all.style.display="block";
+    intro.style.display = "block";
 }
 //function onclicknext
 
