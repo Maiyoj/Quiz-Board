@@ -19,15 +19,12 @@
  .questions{
      background-color: #E5E5E5;
      color: black;
-     width: 50%;
+     width: 30%;
      text-align: left;
      border-radius: 13px;
      padding: 20px;
-    align-items: center;
     margin-left: 500px;
     margin-top: 10px;
-    
-
  }
 
  .all{

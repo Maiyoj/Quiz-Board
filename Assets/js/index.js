@@ -17,7 +17,8 @@ function startQuiz(){
 }
 //function onclicknext
 function next(id){
-    all.style.display = "none"
+    quiz.style.display = "none";
+    all.style.display = "";
 }
 
 
@@ -25,14 +26,18 @@ function next(id){
 
 function results(){
     let score = 0;
-    if (document.getElementById('choiceCorrect1').checked);{
-        score++
+    if (document.getElementById('choiceCorrect1').checked){
+        score += 25;
     }
-    if (document.getElementById('choiceCorrect2').checked);{
-        score++
+    if (document.getElementById('choiceCorrect2').checked){
+        score +=25;
     }
-    if (document.getElementById('choiceCorrect3').checked);{
-        score++
+    if (document.getElementById('choiceCorrect3').checked){
+        score +=25;
+    }
+
+      if (document.getElementById('choiceCorrect4').checked){
+        score +=25;
     }
     alert("Your score is" + score);
 
