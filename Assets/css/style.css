@@ -1,10 +1,24 @@
 
+ @media only screen and (max-width: 1430px) {
+
+    body{
+        
+    background-color: red;
+    }
+  }
+ 
  body{
    
-     
+     background-color: #7B7777;
      
     
  }
+ @media screen and (max-width: 890x) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
 
  .head{
      text-align: center;
@@ -47,7 +61,7 @@
 
  .board{
      display: none;
-     background-color:skyblue;
+     background-color:rgb(169, 169, 255);
      border-radius: 10px;
      padding: 50px;
      width: 20%;

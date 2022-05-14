@@ -6,7 +6,6 @@ let welcome = document.querySelector('.head');
 let all = document.querySelector('.all');
 let intro = document.querySelector('.intro');
 let board = document.querySelector('.board');
-//display block
 
 
 
@@ -20,7 +19,7 @@ function startQuiz(id){
 
 
 function next(){
-   
+    
     
 }
 
@@ -44,30 +43,39 @@ function results(){
     }
 
 
+    var  performance = score;
+        switch (performance) {
+            case 75:
+              performance = ("great")
+                break;
+            case 90:
+               performance = ("good")
+                break;
+            default:
+                performance = ("its not a value")
+        }
+        
+    
+    
+
     
     //alert("Your score is" + score);
     board.style.display ="block"
-    board.innerHTML = "your score is " + score + " " +"out of 100";
+    board.innerHTML = "your score is " + score + " " +"out of 100"+ " " +performance;
     all.style.display = "none"
 }
 
 //Performance output
-
-switch (score){
-
-  case 100:
-    alert("You did great!" + "your score is " +score);
-    break;
-  
-  case 90:
-    console.log("You did good!");
-    break;
-
-  
-  case 10:
-    console.log("YOU FAILED!");
-    break;
-
-  default:
-    console.log(score,"is not a letter grade");
+function Performance(score){
+ 
+    switch (score) {
+        case 75:
+            ("great")
+            break;
+        case y:
+            // execute case y code block
+            break;
+        default:
+            // execute default code block
+    }
 }
