@@ -26,19 +26,19 @@
      width: 95%;
      margin: 20px 600px 20px 10px;
     
- 
      }
    }
 
 
  .questions{
      border: 2px solid  black;
-     width: 40%;
+     width: 60%;
      border-radius: 18px;
      padding: 20px;
      margin-bottom: 20px;
      background: white;
-    margin: 20px 100px 20px 300px;
+    margin: 20px 100px 20px 150px;
+    overflow: hidden;
  }
 
  @media only screen and (max-width: 1030px) {
@@ -59,7 +59,7 @@
  }
  /* btn1 */
  .btn-1{
-     margin-left: 500px;
+     margin-left: 350px;
      margin-bottom: 20px;
  }
  @media only screen and (max-width: 1030px) {
@@ -74,6 +74,7 @@
  .intro{
      text-align: center;
      display: none;
+     margin-right: 100px;
  }
 
 /* board */
@@ -83,11 +84,13 @@
      border-radius: 10px;
      padding: 50px;
      width: 30%;
-     margin-left: 500px;
+     margin-left: 400px;
      text-align: center;
      margin-top: 120px;
      padding: 100px;
-     margin-right: 500px;
+     margin-right: 400px;
+     overflow: hidden;
+    
      
 
  }
@@ -96,7 +99,7 @@
     .board {
   
      width: 60%;
-     margin: 20px 200px 20px 10px;
+     margin: 20px 1000px 20px 100px;
      overflow: hidden;
  
      }

@@ -66,6 +66,7 @@ var  performance = score;
 
     
     //alert("Your score is" + score);
+    intro.style.display = "none";
     board.style.display ="block"
     board.innerHTML = "your score is " + score + " " +"out of 100"+ " " +performance;
     all.style.display = "none"
