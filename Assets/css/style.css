@@ -1,19 +1,9 @@
 
  body{
-   
+
      background-color: #7B7777;
-     
-    
  }
 
- @media only screen and (max-width: 1430px) {
-
-    body{
-        
-    background-color: red;
-    }
-  }
- 
 
  .head{
      text-align: center;
@@ -67,6 +57,7 @@
      padding: 8px;
 
  }
+ /* btn1 */
  .btn-1{
      margin-left: 500px;
      margin-bottom: 20px;
@@ -76,25 +67,37 @@
     .btn-1 {
   
         margin-left: 150px;
-    
- 
      }
    }
 
+/* intro */
  .intro{
      text-align: center;
      display: none;
  }
 
+/* board */
  .board{
      display: none;
      background-color:rgb(169, 169, 255);
      border-radius: 10px;
      padding: 50px;
-     width: 20%;
-     margin-left: 700px;
+     width: 30%;
+     margin-left: 500px;
      text-align: center;
+     margin-top: 120px;
+     padding: 100px;
+     margin-right: 500px;
+     
 
  }
+ @media only screen and (max-width: 1230px) {
 
+    .board {
+  
+     width: 60%;
+     margin: 20px 200px 20px 10px;
+     overflow: hidden;
  
+     }
+   }
