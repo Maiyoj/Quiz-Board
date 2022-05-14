@@ -43,12 +43,18 @@ function results(){
     }
 
 
-    var  performance = score;
+
+
+
+
+
+
+var  performance = score;
         switch (performance) {
-            case 75:
+            case(performance <= 100 && performance >80):
               performance = ("great")
                 break;
-            case 90:
+                case (performance <= 80 && performance > 50):
                performance = ("good")
                 break;
             default:
