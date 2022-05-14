@@ -7,11 +7,13 @@ let all = document.querySelector('.all');
 let intro = document.querySelector('.intro');
 let board = document.querySelector('.board');
 let userData = document.querySelector('.user');
+let button = document.querySelector('.btn-2');
 
 //user data
 function user(){
     welcome.style.display ="block";
     userData.style.display = "none";
+    button.style.display ="none"
  
 }
 
