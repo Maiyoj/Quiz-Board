@@ -9,11 +9,14 @@
  }
 
  .main{
-     width: 80%;
+    
+     width: 60%;
      text-align: center;
      color: white;
      justify-content: center;
      padding-top: 100px;
+     align-items: center;
+    
  }
 
  .questions{
@@ -31,3 +34,10 @@
      display: none;
  }
 
+.board{
+    background-color: #E5E5E5;
+    width: 30%;
+    display: block;
+    padding: 20px;
+    margin-left: 500px;
+}
