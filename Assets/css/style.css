@@ -1,6 +1,3 @@
- *{
-
- }
 
  body{
      background-color:#105E6F ;
@@ -14,12 +11,14 @@
  }
 
  .questions{
-     border: 4px solid  black;
+     border: 2px solid  black;
      width: 40%;
      border-radius: 18px;
      padding: 20px;
      margin-bottom: 20px;
      background: white;
+     display: none;
+    margin: 300px 100px 100px 400px;
  }
 
  button{

@@ -8,14 +8,19 @@ let board = document.querySelector('.board');
 //display block
 
 
+
 //function hide and display elements
 function startQuiz(){
-    quiz.style.display ="block";
     welcome.style.display ="none";
+    quiz.style.display = "block";
    
 }
 //function onclicknext
-function next(id){
+
+
+function next(){
+ 
+
 
 }
 
