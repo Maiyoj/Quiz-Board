@@ -8,6 +8,7 @@
  .head{
      text-align: center;
      margin-top: 100px;
+     display: none;
  }
  .all{
      display: none;
@@ -103,4 +104,13 @@
      overflow: hidden;
  
      }
+   }
+   /* styling form */
+   .user{
+       background-color: white;
+       text-align: center;
+       width: 40%;
+       border-radius: 10px;
+       height: 30vh;
+      margin: 100px 0px 0px 400px;
    }

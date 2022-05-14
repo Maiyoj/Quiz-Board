@@ -6,7 +6,14 @@ let welcome = document.querySelector('.head');
 let all = document.querySelector('.all');
 let intro = document.querySelector('.intro');
 let board = document.querySelector('.board');
+let userData = document.querySelector('.user');
 
+//user data
+function user(){
+    welcome.style.display ="block";
+    userData.style.display = "none";
+ 
+}
 
 
 //function hide and display elements
