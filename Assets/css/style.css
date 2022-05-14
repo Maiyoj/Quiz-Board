@@ -44,3 +44,14 @@
      text-align: center;
      display: none;
  }
+
+ .board{
+     display: none;
+     background-color:skyblue;
+     border-radius: 10px;
+     padding: 50px;
+     width: 20%;
+     margin-left: 700px;
+     text-align: center;
+
+ }

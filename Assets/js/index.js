@@ -46,8 +46,9 @@ function results(){
 
     
     //alert("Your score is" + score);
+    board.style.display ="block"
     board.innerHTML = "your score is " + score + " " +"out of 100";
-
+    all.style.display = "none"
 }
 
 //Performance output
