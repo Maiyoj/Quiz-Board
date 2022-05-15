@@ -15,6 +15,7 @@ let reset = document.querySelector('.reset');
 let head = document.querySelector(".head");
 let register = document.querySelector(".register");
 let header= document.querySelector(".header");
+let form= document.querySelector("#myForm");
 //intropage
 function proceed(){
     head.style.display = "block";
@@ -22,7 +23,7 @@ function proceed(){
     board.style.display ="none"
     reset.style.display ="none";
     header.innerHTML = "Hello!"+ " " +userName.value+ " " +"Welcome to the Javascript Quiz-Board. Test your prowess!";
- 
+    document.getElementById("myForm").reset();
 }
 
 
@@ -32,6 +33,7 @@ function startQuiz(){
     all.style.display="block";
     intro.style.display = "block";
     heading.style.display ="none";
+   
 }
 
 
