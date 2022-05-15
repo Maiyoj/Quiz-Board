@@ -48,21 +48,26 @@ function results(){
       if (document.getElementById('choiceCorrect4').checked){
         score +=25;
     }
-//output performnace
 
+//output performnace
 var  performance = score;
         switch (true) {
             case(performance <= 100 && performance >80):
-              performance = ("great")
+              performance = ("Excellently passed")
                 break;
-                case (performance <= 80 && performance > 50):
-               performance = ("good")
+
+            case (performance <= 80 && performance >=50):
+               performance = ("Fairly passed")
                 break;
+            
+             case (performance <50 && performance >=0):
+                    performance = ("PLease retake the test")
+                     break;
+        
             default:
                 performance = ("its not a value")
         }
-        
-
+    
     
     //alert("Your score is" + score);
     intro.style.display = "none";
