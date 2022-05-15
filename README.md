@@ -26,7 +26,7 @@ The Quiz Board is intended for students to take Javascript examinations to asses
 | Behaviour                                   |           Input                      | Output                   |
 | --------------------------------           | :----------------------------------- | :------------------------|
 | Is used Tests whether the user has 
-  understood javascript concepts              |   Enter Name                         |take you to start page
+  understood javascript concepts              |   Enter Name                         |takes you to start page
 |                                             | if all questions are correct         | Your have scorerd 100 out of 100 |
 |                                             |                                      |                                  |
 |                                             | Score is 80 -100                     | Passed Excellently       |
@@ -44,9 +44,9 @@ The Quiz Board is intended for students to take Javascript examinations to asses
 * run the index.html file.
 
 ### Live Link
-
+https://maiyoj.github.io/Quiz-Board/
 ### Technology  Used
-* HTML - which was used to develope the structure off the pages.
+* HTML - which was used to develop the structure off the pages.
 * CSS - which was used to style the User Interface.
 * Javascript - Used to add interactive behaviour to the page.
 
