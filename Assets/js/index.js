@@ -8,21 +8,25 @@ let intro = document.querySelector('.intro');
 let board = document.querySelector('.board');
 let userData = document.querySelector('.user');
 let button = document.querySelector('.btn-2');
+let submitButton = document.querySelector('.btn3');
+let userName = document.querySelector('#user');
+let heading = document.querySelector('#head1');
 
 //user data
 function user(){
     welcome.style.display ="block";
     userData.style.display = "none";
     button.style.display ="none"
- 
+    userData.style.display ="none";
+    heading.innerHTML =  userName.value+ " " +"please proceed";
 }
-
 
 //function hide and display elements
 function startQuiz(id){
     welcome.style.display ="none";
     all.style.display="block";
     intro.style.display = "block";
+    heading.style.display ="none"
 }
 //function onclicknext
 
