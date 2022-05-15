@@ -5,6 +5,7 @@
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
+ - [BehaviourDrivenDevelopment] (#Behaviour Driven Development)
  - [Requirements](#requirements)
  - [Installation Process](#installation-Process)
  - [Live Link](#Live-Link)
@@ -12,8 +13,8 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
-Quiz board is designed to enable users to take test to weigh their knowledge on javascript concepts or can be implemented to be used 
-on testing any other languange to take tests.
+Quiz board is designed for the purpose of students to take tests on javascript to weigh their knowledge on javascript concepts or can be implemented to be used 
+for testing concepts of other languanges.
 
  ###  Features
 
@@ -22,24 +23,28 @@ on testing any other languange to take tests.
  * Users Checks the correct answers and submits
  * Users can get their resuts on a board and can retake if they fail
 
- ## Behaviour Driven Development|
-| Behaviour      | Input        | Output       |
-| :------------- | :----------: | -----------: |
-|click start button|            |display questions|
-| click the checkbox es |  checked |     |
-| click submit button |           |results display|
+ ## Behaviour Driven Development
+
+| Behaviour                                   |           Input                      | Output                   |
+| --------------------------------           | :----------------------------------- | :------------------------|
+| Is used Tests whether the user has 
+  understood javascript concepts                                   
+|                                             | if all qusetions are correct         | Your have scorerd 100 out of 100 |
+|                                             |                                      | Your score is 100        |
+|                                             | Score is 80 -100                     | Passed Excellently       |
+|                                             | Score is 50- 79                      |  Fairly Passed          |
+|                                             | Score is 0- 49                       |  retake test         |
+
 
  ###  Requirements
  * Access to  a laptop or a phone or a desktop computer
  * Access to internet
  ### Installation Process
-* clone or Download the repo
-* Unzip the downloaded Folder
-* open the folder in an editor of choice 
-* run the index.html file
+* clone or Download the repo.
+* Unzip the downloaded Folder.
+* open the folder in an editor of choice.
+* run the index.html file.
 
- ****
- [Go Back to the top](#)
 ### Live Link
 
 ### Technology  Used
@@ -71,6 +76,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-[Go Back to the top](#)
 ## Authors Info
 Email- maiyoj12@gmail.com
+[Go Back to the top](#)
