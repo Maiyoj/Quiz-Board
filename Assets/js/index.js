@@ -9,16 +9,17 @@ let board = document.querySelector('.board');
 let userData = document.querySelector('.user');
 let button = document.querySelector('.btn-2');
 let submitButton = document.querySelector('.btn3');
-let userName = document.querySelector('#user');
+let userName = document.querySelector('#userName');
 let heading = document.querySelector('#head1');
 let reset = document.querySelector('.reset');
 let head = document.querySelector(".head");
 let register = document.querySelector(".register");
+let header= document.querySelector(".header");
 //intropage
 function proceed(){
     head.style.display = "block";
     register.style.display ="none";
-    head.innerHTML =  userName.value+ " " +"Welcome, lets test how well conversant you are with javascript";
+    header.innerHTML = "Hello"+ " " +userName.value+ " " +"Welcome, lets test how well conversant you are with javascript";
 }
 
 
