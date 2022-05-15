@@ -11,7 +11,7 @@
  .head{
      text-align: center;
      margin-top: 100px;
-     display: none;
+     
  }
  .all{
      display: none;
@@ -79,7 +79,7 @@
 /* board */
  .board{
      display: none;
-     background-color:rgb(169, 169, 255);
+     background-color:white;
      border-radius: 10px;
      padding: 50px;
      width: 30%;

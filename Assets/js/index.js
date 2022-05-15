@@ -22,7 +22,7 @@ function user(){
 }
 
 //function hide and display elements
-function startQuiz(id){
+function startQuiz(){
     welcome.style.display ="none";
     all.style.display="block";
     intro.style.display = "block";
