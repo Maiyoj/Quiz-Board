@@ -13,7 +13,18 @@
      text-align: center;
      margin-top: 100px;
      font-size: 30px;
-     
+     display: none;
+ }
+
+ .register{
+     margin-left: 700px;
+     margin-top: 200px;
+     width: 60%;
+     padding: 20px;
+ }
+
+ .register> button{
+     margin-top: 20px;
  }
  .all{
      display: none;

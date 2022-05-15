@@ -12,15 +12,15 @@ let submitButton = document.querySelector('.btn3');
 let userName = document.querySelector('#user');
 let heading = document.querySelector('#head1');
 let reset = document.querySelector('.reset');
-
-//user data
-function user(){
-    welcome.style.display ="block";
-    userData.style.display = "none";
-    button.style.display ="none"
-    userData.style.display ="none";
-    heading.innerHTML =  userName.value+ " " +"please proceed";
+let head = document.querySelector(".head");
+let register = document.querySelector(".register");
+//intropage
+function proceed(){
+    head.style.display = "block";
+    register.style.display ="none";
+    head.innerHTML =  userName.value+ " " +"Welcome, lets test how well conversant you are with javascript";
 }
+
 
 //function hide and display elements
 function startQuiz(){
