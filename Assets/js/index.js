@@ -38,6 +38,7 @@ function results(){
     if (document.getElementById('choiceCorrect1').checked){
         score += 25;
     }
+    
     if (document.getElementById('choiceCorrect2').checked){
         score +=25;
     }
