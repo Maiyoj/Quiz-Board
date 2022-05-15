@@ -19,7 +19,7 @@ let header= document.querySelector(".header");
 function proceed(){
     head.style.display = "block";
     register.style.display ="none";
-    header.innerHTML = "Hello"+ " " +userName.value+ " " +"Welcome, lets test how well conversant you are with javascript";
+    header.innerHTML = "Hello!"+ " " +userName.value+ " " +"Welcome to the Javascript Quiz-Board. Test your prowess!";
 }
 
 
