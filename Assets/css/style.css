@@ -2,7 +2,8 @@
  body{
 
      background-color:#bdc1c4;
-     ;
+     font-family: sans-serif;
+    
  }
  body h1{
      text-align: center;
@@ -55,9 +56,10 @@
  
  button{
      padding: 8px;
-     font-size: 15px;
+     font-size: 10px;
      width: 10%;
-     background-color:#CF2B66;
+     background-color:rgb(4, 4, 43);
+     color: white;
  }
 
  /* btn1 */
@@ -80,10 +82,15 @@
      width: 59%;
      margin-left: 300px;
      padding: 10px;
-
-
  }
 
+ @media only screen and (max-width: 1030px) {
+    .intro {
+     width: 95%;
+     margin: 20px 600px 20px 10px;
+    
+     }
+   }
 /* board */
  .board{
      display: none;
