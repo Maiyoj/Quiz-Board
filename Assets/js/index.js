@@ -19,6 +19,8 @@ let header= document.querySelector(".header");
 function proceed(){
     head.style.display = "block";
     register.style.display ="none";
+    board.style.display ="none"
+    reset.style.display ="none";
     header.innerHTML = "Hello!"+ " " +userName.value+ " " +"Welcome to the Javascript Quiz-Board. Test your prowess!";
 }
 

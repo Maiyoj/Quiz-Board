@@ -10,11 +10,11 @@
 <body>
     <!-- Main Section -->
     <section class="main">
-        <!-- name -->
+        <!-- User Input -->
         <form class="register">
-        Enter Name<br>
+        <label> Enter Name</label><br>
         <input  id="userName" placeholder="Name"><br>
-        Enter  Class<br>
+        <label> Enter Class</label><br>
         <input  id="" placeholder="Class"><br>
         <button type="button" onclick="proceed()">Submit</button>
         </form>
@@ -49,7 +49,6 @@
             <label for="choiceC">Netscape</label><br>
             <input type="checkbox" id="choiceD">
             <label for="choiceD">Meta</label><br>
-            <!-- <button class="btn-1" onclick="next(1)">Next</button> -->
         </div>
 
         <div class="questions" id="1">
@@ -62,7 +61,6 @@
             <label for="choiceC">scripting</label><br>
             <input type="checkbox" id="choiceD">
             <label for="choiceD">javascript</label><br>
-            <!-- <button class="btn-1" onclick="next(2)">Next</button> -->
         </div>
 
         <div class="questions" id="2" >
@@ -75,7 +73,6 @@
             <label for="choiceC">section</label><br>
             <input type="checkbox" id="choiceD">
             <label for="choiceD">js</label><br>
-            <!-- <button class="btn-1"  onclick="next(3)">Next</button> -->
         </div>
 
         <div class="questions" id="3">
@@ -98,14 +95,10 @@
         <div class="board">
     
         </div>
-        <button class="reset" type="button" onclick="startQuiz()">Retake</button>
+        <button class="reset" type="button" onclick="proceed()">Retake</button>
         </div>
-         
+        
     </section>
-
-
-
-
 
 <script src="./Assets/js/index.js"></script>
 </body>

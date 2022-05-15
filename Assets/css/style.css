@@ -22,6 +22,7 @@
      display: none;
  }
 
+ /* User input */
  .register{
      margin-left: 400px;
      margin-top: 200px;
@@ -40,7 +41,6 @@
     
      }
    }
-
 
  .register> button{
      margin-top: 20px;
@@ -68,7 +68,11 @@
      padding: 6px;
      
      }
-   }
+   }  
+
+
+
+/* main section */
  .all{
      display: none;
      border: 1px solid black;
@@ -193,6 +197,7 @@
      
    }
 
+   /* Reset Button */
    .reset{
     padding: 8px;
     font-size: 10px;
