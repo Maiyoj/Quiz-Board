@@ -1,7 +1,7 @@
 
  body{
 
-     background-color:#105E6F;
+     background-color:#bdc1c4;
      ;
  }
  body h1{
@@ -11,6 +11,7 @@
  .head{
      text-align: center;
      margin-top: 100px;
+     font-size: 30px;
      
  }
  .all{
@@ -20,7 +21,6 @@
      background-color: white;
      width: 60%;
      margin-top: 30px;
-     border-radius: 20px ;
      opacity: 0.8;
 
  }
@@ -55,8 +55,11 @@
  
  button{
      padding: 8px;
-
+     font-size: 15px;
+     width: 10%;
+     background-color:#CF2B66;
  }
+
  /* btn1 */
  .btn-1{
      margin-left: 350px;
@@ -73,7 +76,12 @@
  .intro{
      text-align: center;
      display: none;
-     margin-right: 100px;
+     background-color: white;
+     width: 59%;
+     margin-left: 300px;
+     padding: 10px;
+
+
  }
 
 /* board */
@@ -89,7 +97,7 @@
      padding: 100px;
      margin-right: 400px;
      overflow: hidden;
-    
+    font-size: 30px;
      
 
  }
