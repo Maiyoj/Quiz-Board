@@ -26,7 +26,7 @@ The Quiz Board is intended for students to take Javascript examinations to asses
 | Behaviour                                   |           Input                      | Output                   |
 | --------------------------------           | :----------------------------------- | :------------------------|
 | Is used Tests whether the user has 
-  understood javascript concepts                                   
+  understood javascript concepts              |   Enter Name                         |take you to start page
 |                                             | if all qusetions are correct         | Your have scorerd 100 out of 100 |
 |                                             |                                      |                                  |
 |                                             | Score is 80 -100                     | Passed Excellently       |
