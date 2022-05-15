@@ -27,7 +27,7 @@ function startQuiz(){
     welcome.style.display ="none";
     all.style.display="block";
     intro.style.display = "block";
-    heading.style.display ="none"
+    heading.style.display ="none";
 }
 //function onclicknext
 
@@ -35,7 +35,7 @@ function startQuiz(){
 //results functions
 
 function results(){
-    reset.style.display="block";
+
     let score = 0;
     if (document.getElementById('choiceCorrect1').checked){
         score += 25;
@@ -73,10 +73,12 @@ var  performance = score;
     
     
     //alert("Your score is" + score);
+    
     intro.style.display = "none";
-    board.style.display ="block"
+    board.style.display ="block";
     board.innerHTML = "Your score is " + score + " " +"out of 100"+ " " +performance;
-    all.style.display = "none"
+    all.style.display = "none";
+    reset.style.display = "block";
 }
 
 
