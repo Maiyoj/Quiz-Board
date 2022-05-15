@@ -1,7 +1,7 @@
 # Quiz Board
  ## By Valentine Maiyo
 ## Screenshot
- ![image](./Assets/images/23.png)
+ ![image](./Assets/images/)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
