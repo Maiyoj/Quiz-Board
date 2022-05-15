@@ -11,6 +11,7 @@ let button = document.querySelector('.btn-2');
 let submitButton = document.querySelector('.btn3');
 let userName = document.querySelector('#user');
 let heading = document.querySelector('#head1');
+let reset = document.querySelector('.reset');
 
 //user data
 function user(){
@@ -34,6 +35,7 @@ function startQuiz(){
 //results functions
 
 function results(){
+    reset.style.display="block";
     let score = 0;
     if (document.getElementById('choiceCorrect1').checked){
         score += 25;
