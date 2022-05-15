@@ -51,7 +51,7 @@ function results(){
 //output performnace
 
 var  performance = score;
-        switch (performance) {
+        switch (true) {
             case(performance <= 100 && performance >80):
               performance = ("great")
                 break;
