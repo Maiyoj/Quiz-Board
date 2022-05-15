@@ -24,13 +24,16 @@
 
  /* User input */
  .register{
-     margin-left: 400px;
+     margin-left: 450px;
      margin-top: 200px;
      width: 30%;
      padding: 20px;
      background-color: white;
      padding-right: 10px;
      border-radius: 20px;
+     color: whitesmoke;
+     font-size: 20px;
+     background-image: url("../images/quiz.jpeg");
  }
  @media only screen and (max-width: 1030px) {
 
@@ -45,10 +48,13 @@
  .register> button{
      margin-top: 20px;
      margin-left: 150px;
+     background-color: white;
+     color: black;
+     width: 20%;
  } @media only screen and (max-width: 1030px) {
 
     .register>  button{
-     width: 95%;
+     width: 90%;
      margin: 20px 600px 20px 10px;
     
      }

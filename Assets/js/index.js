@@ -22,6 +22,7 @@ function proceed(){
     board.style.display ="none"
     reset.style.display ="none";
     header.innerHTML = "Hello!"+ " " +userName.value+ " " +"Welcome to the Javascript Quiz-Board. Test your prowess!";
+ 
 }
 
 
@@ -32,7 +33,7 @@ function startQuiz(){
     intro.style.display = "block";
     heading.style.display ="none";
 }
-//function onclicknext
+
 
 
 //results functions
