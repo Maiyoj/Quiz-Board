@@ -61,7 +61,7 @@ var  performance = score;
                 break;
             
              case (performance <50 && performance >=0):
-                    performance = ("PLease retake the test")
+                    performance = ("Please retake the test")
                      break;
         
             default:
@@ -72,7 +72,7 @@ var  performance = score;
     //alert("Your score is" + score);
     intro.style.display = "none";
     board.style.display ="block"
-    board.innerHTML = "your score is " + score + " " +"out of 100"+ " " +performance;
+    board.innerHTML = "Your score is " + score + " " +"out of 100"+ " " +performance;
     all.style.display = "none"
 }
 
